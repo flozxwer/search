@@ -1,0 +1,1 @@
+{"gen_config": {"n": 8, "temperature": 0.7, "top_p": 1, "top_k": -1, "max_new_tokens": 2048, "stop_token_ids": null, "stop_str": null, "include_stop_str_in_output": false}, "method": "best_of_n", "method_config": {"task_name": "MATH", "num_sequence": 8}, "LM": "Qwen2.5-Math-7B-Instruct", "RM": "peiyi9979-math-shepherd-mistral-7b-prm"}

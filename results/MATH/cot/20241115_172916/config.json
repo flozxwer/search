@@ -1,0 +1,1 @@
+{"gen_config": {"n": 1, "temperature": 0.0, "top_p": 1, "top_k": -1, "max_new_tokens": 2048, "stop_token_ids": null, "stop_str": null, "include_stop_str_in_output": false}, "method": "cot", "method_config": {"task_name": "MATH"}, "LM": "Qwen2.5-Math-7B-Instruct", "RM": "dummy"}

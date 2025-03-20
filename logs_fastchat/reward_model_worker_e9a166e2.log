@@ -1,0 +1,11 @@
+2024-11-16 12:07:34 | INFO | reward_model_worker | args: Namespace(host='0.0.0.0', port=30012, worker_address='http://0.0.0.0:30012', controller_address='http://0.0.0.0:28777', model_path='/mnt/data101_d2/wangzhu/llm_models/peiyi9979-math-shepherd-mistral-7b-prm', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, dtype=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=None, conv_template=None, embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-11-16 12:07:34 | INFO | reward_model_worker | Loading the model ['peiyi9979-math-shepherd-mistral-7b-prm'] on worker e9a166e2 ...
+2024-11-16 12:07:34 | ERROR | stderr | Loading checkpoint shards:   0%|                          | 0/2 [00:00<?, ?it/s]
+2024-11-16 12:07:36 | ERROR | stderr | Loading checkpoint shards:  50%|█████████         | 1/2 [00:01<00:01,  1.61s/it]
+2024-11-16 12:07:37 | ERROR | stderr | Loading checkpoint shards: 100%|██████████████████| 2/2 [00:02<00:00,  1.29s/it]
+2024-11-16 12:07:37 | ERROR | stderr | Loading checkpoint shards: 100%|██████████████████| 2/2 [00:02<00:00,  1.34s/it]
+2024-11-16 12:07:37 | ERROR | stderr | 
+2024-11-16 12:07:48 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m550526[0m]
+2024-11-16 12:07:48 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-11-16 12:07:48 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-11-16 12:07:48 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:30012[0m (Press CTRL+C to quit)
